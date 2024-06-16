@@ -1,0 +1,63 @@
+/* 기본 스타일 */
+.weather-info-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 10px; /* 조금 위로 올립니다 */
+}
+
+.weather-component {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: -10px; /* 조금 위로 올립니다 */
+}
+
+.forecast-container {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 0; /* 위아래 여백 추가 */
+}
+
+.forecast-item {
+  min-width: 150px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* 스크롤바 스타일 */
+.forecast-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.forecast-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.forecast-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* 라벨 스타일 */
+.label {
+  padding: 2px 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 10px;
+  color: black;
+  white-space: nowrap;
+}
+
+.label .center {
+  display: inline-block;
+}

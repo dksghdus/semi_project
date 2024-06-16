@@ -1,0 +1,56 @@
+/* info.module.css 파일 */
+.info_table {
+  width: 1100px;
+  height: 300px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.info_table th, .info_table td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+}
+
+.info_table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  width: 250px;
+}
+
+.info_table tr{
+  height: 50px;
+}
+.info_table td{
+  width: 1100px;
+}
+
+.info_table td a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.info_table td a:hover {
+  text-decoration: underline;
+}
+
+.image_gallery {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.image_gallery img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.info_tbody{
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+}
+

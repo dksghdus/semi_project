@@ -1,0 +1,19 @@
+.label {
+  display: inline-block;
+  padding: 2px 5px; /* 여백을 줄여 크기를 줄입니다 */
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 10px; /* 글꼴 크기를 줄입니다 */
+  color: black;
+  white-space: nowrap;
+}
+
+.label .left,
+.label .right {
+  display: none; /* 필요 시 좌우 여백을 줄이기 위해 숨길 수 있습니다 */
+}
+
+.label .center {
+  display: inline-block;
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 메뉴 영역 CSS */
+.restaurant_nav {
+  width: 935px;
+  height: 60px;
+  background-color: #91BCFD;
+  margin: 0 auto;
+}
+
+.restaurant_nav ul {
+  width: 935px;
+  height: 100%;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  align-items: center;
+}
+
+.restaurant_nav ul li a{
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.restaurant_nav ul li a:hover {
+  color: #5C6F68;
+  font-weight: bold;
+  border-bottom: 5px solid #5C6F68;
+}
+
+/* 콘텐츠 영역 CSS */
+.restaurant_section {
+  width: 945px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.restaurant_article {
+  width: 935px;
+  margin-bottom: 26px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  
+  
+}
+
+.restaurant_product {
+  width: 935px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 5px  solid #91BCFD;
+  box-shadow: 0 0 1px 1px (0, 0, 0, 0.5);
+  text-decoration: none;
+  color: black;
+}
+.restaurant_store{
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+}
+
+.restaurant_product_info {
+  width: 395px;
+  padding: 30px 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  font-weight: bold;
+
+}
+.restaurant_product_info_sub{
+  color: #a5a5a5;
+}
+
+.restaurant_product_info>span:first-child {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.restaurant_product_info > span:hover{
+  color: #91BCFD;
+}
+
+.restaurant_product_info>p:last-child {
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+
+.restaurant_icon {
+  width: 20px;
+  height: 20px;
+
+}
+
+.restaurant_page_bar {
+  font-weight: bold;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row norap;
+  justify-content: center;
+  letter-spacing: 5px;
+}
+.restaurant_page_bar > a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px;
+}
+
+.restaurant_footer {
+  width: 1440px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: #e9e9e9;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.restaurant_footer ul {
+  width: 1440px;
+  padding: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.restaurant_footer ul li {
+  font-size: 16px;
+  line-height: 20px;
+}
